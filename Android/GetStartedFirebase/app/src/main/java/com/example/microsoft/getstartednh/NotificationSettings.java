@@ -5,8 +5,8 @@ package com.example.microsoft.getstartednh;
  */
 public class NotificationSettings {
 
-    public static String SenderId = "<Your project number>";
-    public static String HubName = "<Your HubName>";
-    public static String HubListenConnectionString = "<Enter your DefaultListenSharedAccessSignature connection string>";
-    public static String HubFullAccess = "<Enter your DefaultFullSharedAccessSignature connection string>";
+    public static String SenderId = "244365546024";
+    public static String HubName = "RdSampleHub";
+    public static String HubListenConnectionString = "Endpoint=sb://rdsamplehub.servicebus.windows.net/;SharedAccessKeyName=DefaultListenSharedAccessSignature;SharedAccessKey=krAiv7bzVy1GtruVtnDl1G1/p9Yo9fsK3nWw1haZRIY=";
+    public static String HubFullAccess = "Endpoint=sb://rdsamplehub.servicebus.windows.net/;SharedAccessKeyName=DefaultFullSharedAccessSignature;SharedAccessKey=KdKu+BAZb35XINeitUo8TD7hMRZFUi85N/TJEp9Roms=";
 }
